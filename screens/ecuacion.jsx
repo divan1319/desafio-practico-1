@@ -29,6 +29,7 @@ const handleResult =  () => {
         color="#1A2A37"
         style={{ margin: 16 }}
         onChangeText={(text) => handleChange('a',text)}
+        keyboardType="numeric"
         
       />
       <TextInput
@@ -44,6 +45,7 @@ const handleResult =  () => {
         placeholder='Ingrese el valor de "c" '
         color="#1A2A37"
         style={{ margin: 16 }}
+        keyboardType="numeric"
         onChangeText={(text) => handleChange('c',text)}
         
       />
